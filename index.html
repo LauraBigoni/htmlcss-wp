@@ -12,46 +12,111 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
     <title>Struttura WP</title>
 </head>
+
 <body>
-    <div class="container">
-        <!-- intestazione -->
-        <header>
-            <div>
-                <img id="logo" src="/img/logo.png" alt="Logo Neori">
-            </div>
+    <div id="container">
+        <!-- Header logo -->
+        <header class="logo-header">
+            <img id="logo" src="img/logo.png" alt="Logo Neori">
             <nav>
                 <ul>
-                    <li class="text-grey nav-menu">FEATURES</li>
-                    <li class="text-grey nav-menu">EDITORIALS</li>
-                    <li class="text-grey nav-menu">ENVIRONMENT</li>
-                    <li class="text-grey nav-menu">BLOG</li>
-                    <li class="text-grey nav-menu">SHOP</li>
-                    <li class="text-grey nav-menu">CONTACT</li>
+                    <li><a href="#">features</a></li>
+                    <li><a href="#">editorials</a></li>
+                    <li><a href="#">environment</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">shop</a></li>
+                    <li><a href="#">contact</a></li>
                 </ul>
             </nav>
         </header>
-        <!-- struttura centrale -->        
-        <div>
-            <main>
-                <div class="jumbotron"></div>
-                <div class="main-menu">
-                    <header id="menu">
-                        <h1><b>Leadership</b></h1>
-                        <h4 class="text-grey">Fertenum urna a libero tempus</h4>
-                    </header>
-                    <div class="clearfix">    
-                        <div class="sidebar left-sidebar">
-
-                        </div>
-                        <div class="sidebar special"></div>
-                        <div class="sidebar right-sidebar"></div>
-                    </div>
-                    
+        <!-- Main-container -->
+        <main class="main-container">
+            <!-- Jumbotron -->
+            <div id="jumbotron" class="bg-img">
+                <div class="overlay"></div>
+                <div class="jumbo-cont">
+                    <h2>Nam id fuga mollitia nemo dolores odit sed hic distinctio error nostrum!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus quaerat commodi, nihil
+                        asperiores esse adipisci libero ipsa cum temporibus velit minus...</p>
                 </div>
-            </main>
-        </div>
-        <!-- footer -->        
-        <footer> Designed with </footer>
+            </div>
+            <!-- Sezione con float -->
+            <section class="main-section">
+                <header class="second-header">
+                    <h1>Leadership</h1>
+                    <p>Fartenum urna a libero tempus</p>
+                </header>
+                <!-- Prima row -->
+                <div class="row clearfix">
+                    <div class="colonna-lato">
+                        <div class="pic-column left bg-img">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="column-text">
+                            <h2>Lorem</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat minima repellat, quod
+                                exercitationem mollitia, enim perspiciatis doloribus asperiores rem ex ad omnis quasi
+                                beatae
+                                ipsa repellendus, voluptatibus officiis iure corporis.</p>
+                        </div>
+                    </div>
+                    <div class="colonna-centrale">
+                        <div class="pic-column middle bg-img">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="column-text">
+                            <h2>Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat minima repellat, quod
+                                exercitationem mollitia, enim perspiciatis doloribus asperiores rem ex ad omnis quasi
+                                beatae
+                                ipsa repellendus, voluptatibus officiis iure corporis. Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Nihil officia tempore, quis pariatur, quisquam reiciendis
+                                nam
+                                maxime ad omnis, doloremque eum? Distinctio ea ullam recusandae. Repellat, vero qui?
+                                Quidem,
+                                architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ad velit
+                                voluptatem ducimus commodi, blanditiis facere, ipsum asperiores nulla quo nam adipisci?
+                                Porro ratione culpa impedit, labore velit aliquam temporibus! Lorem ipsum dolor sit
+                                amet,
+                                consectetur adipisicing elit. Minus optio recusandae esse officiis vel fugit praesentium
+                                accusamus quibusdam ea at odio non labore in eaque nihil tempora reprehenderit, omnis
+                                qui.
+                                Dolores error minima molestias earum ex inventore, ratione quos, aliquam harum odit
+                                tempore
+                                ipsa placeat expedita rerum similique nemo deserunt libero alias nihil recusandae
+                                sapiente
+                                quod cupiditate. Provident, dolorum minima.
+                                Possimus, expedita eligendi consequatur ab ipsam cupiditate eaque quis odio, commodi,
+                                quia
+                                corporis sint eum ipsa incidunt corrupti. Totam incidunt sequi, voluptas ut ad
+                                doloremque at
+                                tempora earum officiis ab.
+                                Maxime nostrum facilis facere quam voluptates modi dignissimos laborum minus eveniet sed
+                                a
+                                commodi, aperiam harum cum mollitia, numquam, itaque accusamus quia aliquam expedita ad.
+                                Aut
+                                doloremque ducimus cumque quas?</p>
+                        </div>
+                    </div>
+                    <div class="colonna-lato">
+                        <div class="pic-column right bg-img">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="column-text">
+                            <h2>Lorem</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat minima repellat, quod
+                                exercitationem mollitia, enim perspiciatis doloribus asperiores rem ex ad omnis quasi
+                                beatae
+                                ipsa repellendus, voluptatibus officiis iure corporis.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <span>Designed with</span>
+            </footer>
+        </main>
     </div>
 </body>
+
 </html>
