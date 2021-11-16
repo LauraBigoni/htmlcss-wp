@@ -142,22 +142,13 @@
   }
   
   .pic-column.left {
-    background-image: url(../img/img-1.jpg);
+    background-image: url('../img/img-1.jpg');
   }
   .pic-column.middle {
-    background-image: url(../img/banner-2.jpg);
+    background-image: url('../img/banner-2.jpg');
   }
   .pic-column.right {
-    background-image: url(../img/img-3.jpg);
-  }
-  .pic-column.left-b {
-    background-image: url(../img/img-2.jpg);
-  }
-  .pic-column.middle-b {
-    background-image: url(../img/img-5.jpg);
-  }
-  .pic-column.right-b {
-    background-image: url(../img/img-4.jpg);
+    background-image: url('../img/img-3.jpg');
   }
   
   /* text-column */
